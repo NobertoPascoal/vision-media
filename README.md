@@ -1,2 +1,2 @@
 # vision-media
- pagina informativa
+ pagina de destasques informativos
