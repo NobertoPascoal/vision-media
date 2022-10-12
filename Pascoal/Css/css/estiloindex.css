@@ -1,0 +1,78 @@
+body{
+    background: #050505 !important;
+     color: #fff !important;
+     font-family: open sans,Arial,sans-serif !important;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+
+  background-color:#555555d7 !important;
+  padding: 25px !important;
+  height:40px !important;
+}
+
+.carousel-inner img {
+  width: 100% !important; /* Set width to 100% */
+  margin: auto !important;
+  min-height:200px !important;
+}
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none !important; 
+}
+}
+
+
+
+
+
+.container .titulo{ 
+    border: solid 1px rgba(65, 63, 63, 0.644) !important;
+    margin: 100px 0 0;
+    height: 40px;
+    display: inline;
+    background: rgb(161, 105, 20);
+   }
+   
+   .logo1::first-letter{
+    font-size: 20px;
+    color:  rgb(78, 189, 45) !important;
+    
+   }
+
+   .logo1{
+    color:rgb(161, 105, 20);
+    
+}
+
+.logo2{
+    color: rgb(9, 80, 24) ;
+    
+}
+
+
+   
+   /*codigos para o sistema de grid*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
